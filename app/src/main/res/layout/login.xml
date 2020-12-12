@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="400dp"
+    android:src="@drawable/lg"
+        android:layout_height="170dp"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="27sp"
+    android:paddingLeft="15dp"
+    android:layout_marginTop="20dp"
+    android:textColor="@color/black"
+    android:text="Chào bạn"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+
+        android:textColor="@color/black"
+        android:text="Nhập số điện thoại để tiếp tục"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+        <Spinner
+            android:layout_width="80dp"
+
+            android:layout_marginRight="10dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinner1"
+            android:entries="@array/gender"
+            android:layout_gravity="center_horizontal">
+        </Spinner>
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+
+            android:hint="Số điện thoại"/>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_dangnhap_454"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="20dp"
+        android:text="Đăng nhập"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hoặc đăng nhập bằng"
+        android:textSize="18dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Facebook"
+            android:textSize="12sp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/gray"/>
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Email"
+            android:textSize="12sp"
+            android:layout_marginLeft="40dp"
+            android:background="@color/gray"/>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập bằng Apple"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textAlignment="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bỏ qua"
+        android:layout_marginTop="8dp"
+
+        android:textSize="20sp"
+        android:textColor="#013ADF"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
+</LinearLayout>

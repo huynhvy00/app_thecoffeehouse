@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".XacThucActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        tools:ignore="MissingConstraints">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="180dp"
+    android:layout_marginRight="20dp"
+    android:textColor="@color/black"
+    android:text="Nhập mã xác thực gồm 6 số đã được gửi đến số điện thoại 0364507725 để tiếp tục"
+    tools:ignore="MissingConstraints" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Mã xác thực"
+     android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        tools:ignore="MissingConstraints" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/login_454"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Tiếp tục"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Bỏ qua"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/purple_700"
+            android:id="@+id/back_454"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

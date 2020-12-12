@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.tintuc.TinTucFragment">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:layout_marginBottom="60dp"
+        tools:ignore="MissingConstraints">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#fff"
+                    android:layout_marginBottom="7dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+                    <LinearLayout
+                        android:layout_width="123dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            app:cardCornerRadius="35dp">
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/td"
+android:id="@+id/tichdiem454"
+                                android:scaleType="centerCrop" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Tích điểm"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="123dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            app:cardCornerRadius="35dp">
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/gh"
+android:id="@+id/ghaohang454"
+                                android:scaleType="centerCrop" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Giao hàng"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="123dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="20dp"
+                            app:cardCornerRadius="35dp">
+                            <ImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/cp"
+android:id="@+id/khuyenmai454"
+                                android:scaleType="centerCrop" />
+                        </androidx.cardview.widget.CardView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="30dp"
+                            android:text="Khuyến mãi"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Ưu đãi đặc biệt"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="265dp"
+                        android:textStyle="bold"
+                        android:text="..."/>
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="290dp"
+                        android:layout_marginBottom="10dp" >
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Giảm 50% tât cả sản phẩm. Nhanh tay đặt ngay."
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Chào đón mùa lễ mới Coffee House dành siêu ưu đãi cho khách hàng ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:id="@+id/chitiet_454"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg1"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Giáng sinh an lành cũng Coffee, ưu đãi mới."
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Món mới ra đời từ giáng sinh, hẹn các bạn vào 10 ngày sắp tới, ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+                                    android:id="@+id/roundedImageView"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg4"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Lên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg3"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Nhận hàng giao ngay, rinh quà đầy nhà."
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ưu đãi khi đặt combo theo vị trọn bộ 4 vị, giao tận nhà miễn phí ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="290dp"
+                        android:layout_marginBottom="10dp" >
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/a1"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Liên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg3"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Giao hàng tận nơi, ưu đãi cự lớn."
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Tải ngay app XXX để nhận ưu đãi liên kết với Coffee House nhé..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Liên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg2"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Liên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="290dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="290dp"
+                        android:layout_marginBottom="70dp" >
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg4"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Liên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg1"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Liên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg3"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Liên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/bo"
+                            android:layout_margin="10dp"
+                            android:orientation="vertical">
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                app:cardCornerRadius="10dp"
+                                android:layout_margin="0dp"
+                                android:elevation="10dp">
+
+                                <ImageView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/gg2"
+                                    android:background="@color/white"
+                                    android:scaleType="centerCrop"
+                                    />
+                            </androidx.cardview.widget.CardView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Siêu ưu đãi, freeship cho tât cả các sản phẩm !!!"
+                                android:textStyle="bold"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Liên kết với Now để nhận ưu đãi mới nhất,nhập mã APYEUTHICH để ..."
+                                android:paddingLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:paddingRight="10dp"/>
+                            <Button
+                                android:layout_width="wrap_content"
+                                android:layout_height="37dp"
+                                android:text="Chi tiết"
+                                android:layout_marginLeft="10dp"
+                                android:textColor="#000"
+                                android:background="@drawable/bobutton"
+                                android:layout_marginTop="20dp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
